@@ -5,19 +5,12 @@
 
 #include <iostream>
 using namespace std;
-
-
 int main() 
 {
-   
-    int a,b,i,r,org;
-
-    cout<<"Enter A No :";
+   int a,b,i,r,org;
+   cout<<"Enter A No :";
     cin>>a;
     org=a;
-    
-    
-    
     while(a>0)
     {   b=a%10;
         r=r*10+b;
@@ -33,7 +26,5 @@ int main()
          }
     
      
-    
-   
-    return 0;
+     return 0;
 }
